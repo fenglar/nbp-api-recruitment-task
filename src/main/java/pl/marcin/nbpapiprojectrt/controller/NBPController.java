@@ -21,7 +21,6 @@ public class NBPController {
     @Autowired
     private NBPService nbpService;
 
-    String baseUrl = "http://api.nbp.pl/api/exchangerates/rates/";
 
 
     @GetMapping("/exchange-rates/{currencyCode}")
